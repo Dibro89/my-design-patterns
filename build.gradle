@@ -1,0 +1,16 @@
+plugins {
+    id 'application'
+}
+
+sourceCompatibility = '11'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
+
+application {
+    mainClass = 'patterns.Main'
+}
